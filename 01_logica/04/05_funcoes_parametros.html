@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+<script>
+
+    // É importante que as funções sejam indicadas no começo do código.
+
+    function pulaLinha() { 
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) { 
+        // "frase" é uma variável local. Quando o mostra aparece com algum parâmetro, esse valor é "jogado" para a variável "frase".
+        // Por debaixo dos panos fica algo como: frase = "Flávio tem " + (ano - 1977) + " anos"
+        // "frase" recebe o que recebemos no "mostra"
+
+        document.write(frase);
+        pulaLinha(); // Para chamar uma função declarada, é necessário abrir e fechar os parênteses, caso contrário o JavaScript não reconhece e ignora.
+        // Uma função pode ter a chamada de uma outra função dentro dela.
+        // A função pulaLinha() é uma função que não recebe parâmetros. Já a função mostra() é uma função que recebe um parâmetro.
+    }
+
+
+    var ano = 2016;
+
+    // mostra(); = se usar essa função sem passar algum parâmetro, ela não funciona pois a variável "frase" não receberá nenhum valor. = undefined.
+
+    // document.write("Flávio tem " + (ano - 1977) + " anos");
+    
+    mostra("Flávio tem " + (ano - 1977) + " anos"); // O que há dentro do "mostra" é chamado de parâmetro.
+
+    // pulaLinha();
+
+    // document.write("Joaquim tem " + (ano - 1996) + " anos");
+
+    mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+    // pulaLinha();
+
+    ano = 2017;
+
+    // document.write("Barney tem " + (ano - 1976) + " anos");
+
+    mostra("Barney tem " + (ano - 1976) + " anos");
+
+    // pulaLinha();
+
+    // document.write("Olá pessoal!");
+
+    mostra("Olá pessoal!");
+
+</script>

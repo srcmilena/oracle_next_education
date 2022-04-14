@@ -1,0 +1,22 @@
+<meta charset="UTF-8" />
+<script>
+  function pulaLinha() {
+    document.write('<br>')
+    document.write('<br>')
+  }
+
+  function mostra(frase) {
+    document.write(frase)
+    pulaLinha()
+  }
+
+  var vitorias = parseInt(prompt('Entre com o número de vitórias.')) // O JavaScript converte automaticamente o valor digitado pelo usuário para um número.
+  // O JavaScript lê do prompt como string, independente do tipo de dado.
+  var empates = parseInt(prompt('Entre com o número de empates.'))
+  var pontos = vitorias * 3 + empates
+
+  //alert(vitorias * 3);
+  // Não se coloca o sinal de mais (+) pois o JavaScript irá interpretar como concatenação.
+
+  mostra('Os pontos do seu time são: ' + pontos)
+</script>

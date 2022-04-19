@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() * 100);
+
+    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+    if(chute == numeroPensado) {
+
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    } else {
+
+        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
+    }
+</script>
+
+<!--
+    Pedimos para o computador "pensar" em um número aleatório por meio do Math.random() e multiplicamos esse valor por 100, assim, teremos um número entre 0 e 100. Em seguida, perguntamos para o usuário "chutar" um número, ele deve tentar adivinhar o que o computador pensou. E com o número fornecido verificamos se o usuário estava certo. Uma mensagem deve ser mostrada caso o chute tenha sido errado. Por isso, utilizamos o else:
+-->

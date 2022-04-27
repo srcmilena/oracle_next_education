@@ -1,0 +1,27 @@
+<!--
+    Usando a instrução while imprima todos os números pares de 1 a 100 e ao final imprima a palavra "FIM". DICA: incremente o contador de dois em dois!
+-->
+<meta charset="UTF-8" />
+
+<script>
+
+  function pulaLinha() {
+    document.write('<br>')
+    document.write('<br>')
+  }
+
+  function mostra(frase) {
+    document.write(frase)
+    pulaLinha()
+  }
+
+  var contador = 0;
+
+    while(contador <= 100) {
+        mostra(contador)
+        contador= contador + 2; //Incrementa de dois em dois
+    }
+
+    mostra("FIM");
+
+</script>

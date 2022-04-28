@@ -1,0 +1,18 @@
+<!--
+    Para saber se um valor é NaN precisamos usar uma função específica, a isNaN. Essa função recebe um parâmetro e retorna true ou false caso o valor seja NaN ou não.
+
+Sabendo que a função isNaN recebe um parâmetro e retorna true caso o parâmetro passado seja NaN, qual das opções abaixo altera corretamente o código de Daniel para usar a função isNaN?
+-->
+<meta charset="UTF-8">
+<script>
+
+    var idade = parseInt(prompt("Digite sua idade"));
+
+        while( isNaN(idade) ) {
+
+        idade = parseInt(prompt("Digite sua idade"));    
+    }
+
+alert(idade);
+
+</script>

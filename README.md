@@ -1,5 +1,5 @@
 # Oracle Next Education (ONE)
-O programa tem duração de 6 meses e é dividido em quatro trilhas de aprendizagem, com carga horária total de 420 horas – 100% online.
+O programa tem duração de 6 meses e é dividido em quatro trilhas de aprendizagem, com carga horária total de 420h – 100% online.
 
 ### Lógica de Programação (70h)
 Básico de lógica e conceitos de programação, até a criação de páginas web.

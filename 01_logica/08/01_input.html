@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<input />
+<button>Compare com o meu segredo</button>
+
+<script>
+
+    var segredo = 5;
+
+    var input = document.querySelector("input"); // a variável input (pode ser qualquer nome) recebe aquele valor
+    //querySelector = pega o valor do botão e como não sabe de onde pegar, é necessário colocar o valor o nome da tag
+    
+    function verifica() {
+
+        if(input.value == segredo) {
+
+            alert("Você acertou");
+        } else {
+
+            alert("Você errou");
+        }
+    }
+    var button = document.querySelector("button");
+    button.onclick = verifica; //no clicar do botão | sem parenteses pois no console mostra o codigo de "verifica" (= mostra o código da função no console e não executa) e com "verifica()" ele executa
+
+</script>

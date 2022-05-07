@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    for(var multiplicador = 1; multiplicador <= 10; multiplicador++) { // (variável de incialização do multiplicador; condição de repetição; incremento, nesse caso foi o pós incremento)
+        mostra(7 * multiplicador);
+    }
+
+    /* 
+    se fosse com o while:
+
+    var multiplicador = 1;
+    while(multiplicador <= 10) {
+        mostra(7 * multiplicador);
+        multiplicador = multiplicador + ';'
+    }
+    */
+
+    mostra("FIM");
+
+</script>

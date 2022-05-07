@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var totalFamiliares = parseInt(prompt("Digite a quantidade de familiares: "));
+
+    var numero = 1;
+
+    var totalIdades = 0; //aqui não vai zerar, e sim manter e acumular
+
+    while(numero <= totalFamiliares) {
+        // var totalIdades = 0; a inicialização da variável do while não pode ser dentro da condição e sim fora pois senão irá zerar a var a cada rodada
+
+        var idade = parseInt(prompt("Informe idade do familiar: "));
+        totalIdades = totalIdades + idade;
+        numero++;
+    }
+
+    var mediaDasIdades = totalIdades/totalFamiliares;
+    mostra("A média das idades dos familiares é " + mediaDasIdades);
+    mostra("FIM");
+
+</script>

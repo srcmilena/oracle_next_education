@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() * 10); //4; 
+    var tentativas = 1;
+
+    while(tentativas <= 3) {
+
+        var chute = parseInt(prompt("Digite seu chute: "));
+
+        if (chute == numeroPensado) {
+            
+        mostra("Você acertou! O número pensado era " + numeroPensado);
+        break; //quebra o loop e vai para a próxima instrução e pode ser usado no for também
+        //tentativas = 4; (serve dando um valor para que pare de repetir)
+
+        } else {
+            mostra("Você errou!");
+        }
+
+        tentativas++;
+    }
+
+    mostra("FIM");
+
+</script>

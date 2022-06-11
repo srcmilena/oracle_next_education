@@ -1,4 +1,13 @@
-<canvas width="600" height="400"></canvas>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil flag</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
 
 <script>
 
@@ -6,24 +15,28 @@
     var pincel = tela.getContext('2d');
 
     pincel.fillStyle = 'green';
-    pincel.fillRect(50, 50, 450, 300);
+    pincel.fillRect(0, 0, 600, 400);
 
     pincel.fillStyle = 'yellow';
     pincel.beginPath();
-    pincel.moveTo(270, 150);
-    pincel.lineTo(100, 250);
-    pincel.lineTo(450, 250);
+    pincel.moveTo(300, 300);
+    pincel.lineTo(300, 100);
+    pincel.lineTo(100, 200);
     pincel.fill();
 
     pincel.fillStyle = 'yellow';
     pincel.beginPath();
-    pincel.moveTo(150, 270);
-    pincel.lineTo(100, 250);
-    pincel.lineTo(450, 150);
+    pincel.moveTo(300, 300);
+    pincel.lineTo(500, 200);
+    pincel.lineTo(300, 100);
     pincel.fill();
 
     pincel.fillStyle = 'darkblue';
     pincel.beginPath();
-    pincel.arc(260, 200, 70, 0, 2*3.14);
+    pincel.arc(300, 200, 65, 0, 2*3.14);
     pincel.fill();
+
 </script>
+
+</body>
+</html>

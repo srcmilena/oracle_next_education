@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="600"  height="400"></canvas>
+    // código anterior omitido
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(evento) {
+        var x = evento.pageX - tela.offsetLeft; // pageX = mostra o eixo x / offsetLeft = pega o tamanho total do canva
+        var y = evento.pageY - tela.offsetTop;
+
+        pincel.fillStyle="blue"; // desenha na cor azul
+        pincel.beginPath();
+        pincel.arc(x, y, 10, 0, 2*3.14); // 10 = limite / 0 = inicial zero
+        pincel.fill();
+
+        console.log("posição do clique : " + x + ", " + y);
+    }
+
+// não esqueça de mudar aqui
+tela.onclick = desenhaCirculo;
+</script>
+</body>
+</html>

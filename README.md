@@ -1,43 +1,43 @@
 # Oracle Next Education (ONE)
-O programa tem duração de 6 meses e é dividido em quatro trilhas de aprendizagem, com carga horária total de 420h – 100% online.
+The bootcamp lasts 6 months and is divided into four learning tracks, with a total workload of 420 hours - 100% online.
 
-### Lógica de Programação (70h)
-Básico de lógica e conceitos de programação, até a criação de páginas web.
+### Programming logic (70h)
+Basics of logic and programming concepts, to web page creation.
 
-- Pensamento lógico;
-- Linguagem JavaScript;
-- Condicionais, laços, variáveis;
-- Desenho de gráficos;
-- Funções e boas práticas;
-- Animações e games;
-- Páginas web com HTML;
-- Visual com CSS.
+- Logical thinking;
+- JavaScript language;
+- Conditionals, loops, variables;
+- Design of graphics;
+- Functions and best practices;
+- Animations and games;
+- Web pages with HTML;
+- Visual with CSS.
 
 ***
 
 ### Front end (100h)
-HTML, CSS e JavaScript para construir experiências na web.
+HTML, CSS and JavaScript to build web experiences.
 
-- Páginas web com HTML e CSS;
-- Semântica de código;
-- Efeitos com CSS;
-- Animações;
-- Interatividade com JavaScript;
-- Formulários e tabelas;
+- Web pages with HTML and CSS;
+- Semantics of code;
+- Effects with CSS;
+- Animations;
+- Interactivity with JavaScript;
+- Forms and tables;
 - Framework jQuery;
-- Web design responsivo;
-- Projeto de conclusão.
+- Responsive Web design;
+- Completion project.
 
 ***
 
 ### Back end (120h)
-Construção de aplicações desktop, back end de aplicações web, aplicativos mobile e mais.
+Building desktop applications, web application backend, mobile applications, and more.
 
-- Linguagem Java;
-- Orientação a objetos;
-- Herança e polimorfismo;
-- Controle de erros;
-- Manipulação de arquivos;
-- Biblioteca base;
-- Coleções;
+- Java language;
+- Object-Oriented Programming;
+- Inheritance and polymorphism;
+- Error handling;
+- File manipulation;
+- Base library;
+- Collections;
 - Lambdas.
